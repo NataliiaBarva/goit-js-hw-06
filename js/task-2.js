@@ -1,8 +1,8 @@
 class Storage {
   #items;
 
-  constructor(items) {
-    this.#items = items;
+  constructor(initialItems) {
+    this.#items = initialItems;
   }
 
   getItems() {
@@ -18,6 +18,7 @@ class Storage {
   }
 }
 
+// Перевірка (не змінювати)
 const storage = new Storage(["Nanitoids", "Prolonger", "Antigravitator"]);
 console.log(storage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator"]
 

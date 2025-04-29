@@ -22,7 +22,7 @@ class StringBuilder {
   }
 }
 
-// Тестові виклики
+// Перевірка (не змінювати)
 const builder = new StringBuilder(".");
 console.log(builder.getValue()); // "."
 builder.padStart("^");
